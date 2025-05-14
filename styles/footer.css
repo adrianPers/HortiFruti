@@ -1,0 +1,24 @@
+
+#img-footer{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    display: none;
+}
+
+#img-footer img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    background-color: green;
+}
+
+@media screen and (max-width: 480px) {
+
+    #img-footer{
+        display: block;
+    }
+    
+}
